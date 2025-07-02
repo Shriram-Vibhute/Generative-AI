@@ -17,4 +17,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Dont use LLM's because they are old and cannot used for Conversactional Taksk.
+# Dont use LLM's because they are old and cannot used for Conversational Taksk.
