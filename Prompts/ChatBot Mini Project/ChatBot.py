@@ -9,7 +9,7 @@ load_dotenv()
 def response_generator(input_text):
     # Creating model by calling HF API
     llm = HuggingFaceEndpoint(
-        repo_id="deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        repo_id="deepseek-ai/DeepSeek-R1-0528",
         task="text-generation",
         temperature=0.1,
         max_new_tokens=10
